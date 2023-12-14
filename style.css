@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    width: 100%;
+    max-width: 300px;
+    max-height: 250px;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+.container .heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    color: white;
+    margin-bottom: 20px;    
+}
+.container form .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+#username
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#password
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#confirmpassword
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#email
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#Contactnumber
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#file
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container button
+{
+ background-color: #792999;
+ color: white;
+ padding: 5px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 16px;
+ border: none;
+}
+.container #reset{
+margin-left: 120px;
+}
+span{
+    color:black;
+    font-size: 24px;
+}

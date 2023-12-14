@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Web Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="heading">
+                <p>Web Form</p>
+            </div>
+            <div>
+                <div class="userdetails">
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" 
+                      placeholder="Name" required>
+                 </div>
+                 <div>
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" 
+                      placeholder="Password" minlength="8" required>
+                 </div>
+                 <div>
+                    <label for="email"></label>
+                    <input name="email" id="email" type="email"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    placeholder="Email" required>
+                 </div>
+                 <div>
+                      <label for="Contactnumber"></label>
+                      <input name="Contactnumber" pattern="[0-9]{10}" 
+                      id="Contactnumber"
+                      placeholder="Contact Number" required>
+                 </div>
+               </div>
+           
+              <div>
+                  <label for="file"><span>Photo</span></label>
+                  <input type="file" name="file" id="file">
+              </div>
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+    </div>
+  
+</body>
+</html>
